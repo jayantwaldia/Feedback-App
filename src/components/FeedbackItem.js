@@ -2,7 +2,6 @@ import { FaTimes } from "react-icons/fa";
 import Card from "./shared/Card";
 
 function FeedbackItem({ item, handleDelete }) {
-  const handleClick = (id) => {};
   return (
     <Card>
       <div className="num-display">{item.rating}</div>
