@@ -9,7 +9,7 @@ export default function Header({ text, bgColor, textColor }) {
   return (
     <header style={headerStyle}>
       <div className="container">
-        <Link to="/">
+        <Link to="/" style={{ color: "orange" }}>
           <h2>{text}</h2>
         </Link>
       </div>
